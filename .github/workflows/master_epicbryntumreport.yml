@@ -23,6 +23,8 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          cd ./server
+          npm install node-pre-gyp -g
           npm update
           npm install
           npm start
