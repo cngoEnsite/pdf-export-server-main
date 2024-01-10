@@ -27,7 +27,7 @@ jobs:
           npm install node-pre-gyp -g
           npm update
           npm install
-          npm start
+          --npm start
           --npm run build --if-present
           --npm run test --if-present
 
