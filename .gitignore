@@ -12,3 +12,4 @@ bin/mac
 node_modules/
 !log/config.json
 !.gitkeep
+/.vs/pdf-export-server-main/FileContentIndex
